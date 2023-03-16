@@ -1,0 +1,102 @@
+* {
+  font-family: "Rubik", sans-serif;
+  white-space: initial;
+}
+
+:root {
+  --border0: rgb(169, 169, 169);
+  --border: rgb(113, 113, 113);
+  --dgrey: rgb(80, 80, 80);
+  --lgrey: rgb(251, 251, 251);
+  --blue: rgb(13, 226, 234);
+}
+
+.box-tabs {
+  display: flex;
+  flex: content;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.box-tabs p {
+  text-align: center;
+  color: var(--border);
+}
+.box-tabs a {
+  margin-right: 2rem;
+  flex-wrap: wrap;
+  width: 8rem;
+  height: 3rem;
+  border: 0.06rem solid var(--border);
+  
+  text-decoration: none;
+  color: var(--border);
+  background-color: var(--lgrey);
+  box-sizing: border-box;
+}
+.box-tabs a.active {
+  background-color: var(--blue);
+  color: #fff;
+  border: none;
+  transition: ease-in-out 0.1s;
+  box-sizing: border-box;
+}
+
+.resources {
+  width: 100%;
+  height: 34rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  border: 0.063rem solid var(--border);
+  border-top: 0.313rem solid var(--blue);
+  box-sizing: border-box;
+}
+.resources p {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  flex-wrap: nowrap;
+  color: var(--border);
+}
+.resources a {
+  display: block;
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  margin-bottom: 1.25rem;
+  box-sizing: border-box;
+  height: 3rem;
+  background-color: rgb(248, 248, 248);
+  box-sizing: border-box;
+  display: list-item;
+  list-style: square;
+}
+
+header {
+  background-color: #fff;
+  width: 70%;
+  height: 12rem;
+  border: 0.063rem solid var(--border);
+  margin: auto;
+  margin-top: 3.125rem;
+  margin-bottom: 7rem;
+  box-sizing: border-box;
+  font-size: x-large;
+}
+header h1 {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  color: var(--border);
+}
+
+main {
+  width: 70%;
+  height: 30%;
+  margin: auto;
+  margin-top: 3.125rem;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNhc3MvbWFpbi5zY3NzIiwibWFpbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTUE7RUFDRSxnQ0FBQTtFQUNBLG9CQUFBO0FDTEY7O0FEUUE7RUFDRSw2QkFBQTtFQUNBLDRCQUFBO0VBQ0Esd0JBQUE7RUFDQSwyQkFBQTtFQUNBLHlCQUFBO0FDTEY7O0FEUUE7RUFDRSxhQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0VBQ0Esc0JBQUE7QUNMRjtBRE9FO0VBQ0Usa0JBQUE7RUFDQSxvQkFBQTtBQ0xKO0FEUUU7RUFDRSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLG1DQUFBO0VBQ0EseUNBQUE7RUFDQSxxQkFBQTtFQUNBLG9CQUFBO0VBQ0EsOEJBQUE7RUFDQSxzQkFBQTtBQ05KO0FEUUk7RUFDRSw2QkFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsNEJBQUE7RUFDQSxzQkFBQTtBQ05OOztBRFdBO0VBU0UsV0FBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHNCQUFBO0VBQ0Esb0NBQUE7RUFDQSxzQ0FBQTtFQUNBLHNCQUFBO0FDaEJGO0FERUU7RUFDRSwrQkFBQTtVQUFBLHVCQUFBO0VBQ0EsaUJBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0VBQ0Esb0JBQUE7QUNBSjtBRFdFO0VBQ0UsY0FBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxzQkFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLG9DQUFBO0VBQ0Esc0JBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDVEo7O0FEYUE7RUFDRSxzQkFBQTtFQUNBLFVBQUE7RUFDQSxhQUFBO0VBQ0Esb0NBQUE7RUFDQSxZQUFBO0VBQ0Esb0JBQUE7RUFDQSxtQkFBQTtFQUNBLHNCQUFBO0VBQ0Esa0JBQUE7QUNWRjtBRFlFO0VBQ0UsK0JBQUE7VUFBQSx1QkFBQTtFQUNBLGdCQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLG9CQUFBO0FDVko7O0FEY0E7RUFDRSxVQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxvQkFBQTtFQUNBLHNCQUFBO0FDWEYiLCJmaWxlIjoibWFpbi5jc3MifQ== */
