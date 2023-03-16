@@ -3,26 +3,30 @@ const resources = [
         title: "W3Schools",
         url: "https://www.w3schools.com/html/",
         category: "html",
-        t: "HTML ressurser"
+        t: "HTML ressurser",
+        b: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu molestie risus. Pellentesque viverra orci vel mattis rutrum. Pellentesque tincidunt pulvinar fringilla. Nulla ultricies dui eu purus ornare volutpat. Proin urna cursus urna, et tempor turpis. Pellentesque pretium diam in lectus viverra ullamcorper. Cras quam magna, commodo quis convallis in, interdum eget ligula. Urna urna mauris eu orci scelerisque laoreet. Suspendisse a nunc leo. Proin sagittis lacus eget dignissim tristique. "
     },
     {
         title: "W3Schools",
         url: "https://www.w3schools.com/css/",
         category: "css",
-        t: "CSS ressurser"
+        t: "CSS ressurser",
+        b: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu molestie risus. Pellentesque viverra orci vel mattis rutrum. Pellentesque tincidunt pulvinar fringilla. Nulla ultricies dui eu purus ornare volutpat. Proin non cursus urna, et tempor turpis. Pellentesque pretium diam in lectus viverra ullamcorper. Cras quam magna, commodo quis convallis in, interdum eget ligula. "
         
     },
     {
         title: "W3Schools",
         url: "https://www.w3schools.com/js/",
         category: "javascript",
-        t: "Javascript ressurser"
+        t: "Javascript ressurser",
+        b: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu molestie risus. Pellentesque viverra orci vel mattis rutrum. Pellentesque tincidunt pulvinar fringilla. Nulla ultricies dui eu purus ornare volutpat. Proin urna cursus urna, et tempor turpis. Pellentesque pretium diam in lectus viverra ullamcorper. Cras quam magna, commodo quis convallis in, interdum eget ligula. Urna urna mauris eu orci scelerisque laoreet. Suspendisse a nunc leo. Proin sagittis lacus eget dignissim tristique. "
     },
     {
         title: "W3Schools",
         url: "https://www.w3schools.com/REACT/DEFAULT.ASP",
         category: "react",
-        t: "React ressurser"
+        t: "React ressurser",
+        b: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu molestie risus. Pellentesque viverra orci vel mattis rutrum. Pellentesque tincidunt pulvinar fringilla. Nulla ultricies dui eu purus ornare volutpat. Proin urna cursus urna, et tempor turpis. Pellentesque pretium diam in lectus viverra ullamcorper. Cras quam magna, commodo quis convallis in, interdum eget ligula. Urna urna mauris eu orci scelerisque laoreet. Suspendisse a nunc leo. Proin sagittis lacus eget dignissim tristique. "
     },
     {
         title: "HTML Living standard",
@@ -68,7 +72,8 @@ const resources = [
         title: "Sanity documentation",
         url: "https://www.sanity.io/docs",
         category: "headless-cms",
-        t: "Sanity ressurser"
+        t: "Sanity ressurser",
+        b: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu molestie risus. Pellentesque viverra orci vel mattis rutrum. Pellentesque tincidunt pulvinar fringilla. Nulla ultricies dui eu purus ornare volutpat. Proin urna cursus urna, et tempor turpis. Pellentesque pretium diam in lectus viverra ullamcorper. Cras quam magna, commodo quis convallis in, interdum eget ligula. Urna urna mauris eu orci scelerisque laoreet. Suspendisse a nunc leo. Proin sagittis lacus eget dignissim tristique. "
     },
     {
         title: "OnCrawl: a beginners guide to headless CMS",

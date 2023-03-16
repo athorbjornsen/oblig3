@@ -23,35 +23,35 @@ const BoxTabs = () => {
             
             
           >
-            HTML
+            <p>HTML</p>
           </Link>
           <Link
             to="/css"
             className={activeTab === "/css" ? "active" : ""}
             onClick={() => handleTabClick("/css")}
           >
-            CSS
+            <p>CSS</p>
           </Link>
           <Link
             to="/javascript"
             className={activeTab === "/javascript" ? "active" : ""}
             onClick={() => handleTabClick("/javascript")}
           >
-            JavaScript
+            <p>Javascript</p>
           </Link>
           <Link
             to="/react"
             className={activeTab === "/react" ? "active" : ""}
             onClick={() => handleTabClick("/react")}
           >
-            React
+            <p>React</p>
           </Link>
           <Link
             to="/sanity"
             className={activeTab === "/sanity" ? "active" : ""}
             onClick={() => handleTabClick("/sanity")}
           >
-            Sanity
+            <p>Sanity</p>
           </Link>
         </div>
       );
